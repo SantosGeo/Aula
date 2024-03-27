@@ -1,0 +1,259 @@
+#project{
+    
+    max-width: fit-content;
+    
+}
+
+header{
+    
+    width: 100%;
+    height: 30%;
+    background-color: #A0522D;
+    position:relative;
+}
+
+nav{
+    
+    margin-left: 45%;
+}
+
+#viola{
+    
+    
+    transform:rotate(34deg);
+    position:absolute;
+    left: 12%;
+    top: 37%;
+    transform: translate(-50%, -50%) rotate(33deg);
+}
+
+#fe{
+    
+    position: absolute;
+    right: 86%;
+    top: 60%;
+    transform: translate(50%, -50%);
+    
+}
+
+
+.menu ul li{
+    
+    display: inline-block;
+    position: relative;
+    padding-right:6rem;
+    margin-right: 3%;
+}
+
+.menu ul li a{
+    
+    color:#000000;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+    transition: background 0.3s;
+    font-weight: bold;
+    text-decoration-line:underline;
+    
+    
+}
+
+.menu ul li a:hover{
+    
+    background-color: #DAA520;
+    
+}
+
+.menu ul ul{
+    
+    display: none;
+    left: -34;
+    position: absolute;
+    padding-top: 7%;
+}
+
+.menu ul li:hover ul{
+    
+    display: block;
+}
+
+.menu ul ul li a{
+    
+    display: block;
+}
+
+section{
+    
+    width: 100%;
+    height: 50rem;
+    background-image:url(../ProjetoAula/img/viola.jpg);
+    background-size: cover;
+    margin-top: 3.5rem;
+    position: relative;
+    max-width: fit-content;
+}
+
+.curse{
+
+    max-width: fit-content;
+}
+
+.curse a{
+    
+    color: #D2B48C;
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-style: oblique;
+    padding-top: 12rem;
+    display:inline-block;
+    font-weight: bold;
+    margin-left: 40%;
+}
+
+.curse h5{
+    
+    margin-left: 57%;
+    color: #D2B48C;
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    max-width: fit-content;
+}
+
+
+
+#interesse h3{
+    
+    color: #FFE4B5;
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: -14rem;
+    margin-left: 7.5rem;
+    margin-bottom: -2.5rem;
+    margin-top: -11rem;
+    max-width: 15%;
+    
+}
+
+#interesse h6{
+    
+    color: #FFE4B5;
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 2rem;
+    max-width: 30%;
+}
+
+#phone{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem;
+    width: 18%;
+    padding: 0.2rem;
+    border: none;
+    max-width: 20%;
+   
+}
+
+#nome{
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem;
+    width: 18%;
+    display:block;
+    margin-bottom: 1.8rem;
+    padding: 0.2rem;
+    border: none;
+    max-width:30%
+}
+
+#enviar{
+    
+    display: block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+    font-size: 1.1rem;
+    width: 10%;
+    margin-left: 5.7rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem;
+    max-width: 10%
+    
+    
+}
+
+video{
+
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius:5%;
+    margin-left: 67%;
+    margin-top: -5%;
+    max-width: fit-content;
+    transform: translateX(-50%);
+
+}
+
+footer{
+    
+    width: 100%;
+    height: 3.5rem;
+    background-color: #000000;
+    margin-top: 0rem;
+    max-width: 100%;
+    
+}
+
+footer a{
+    
+    color:#D2B48C;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 1.1rem;
+    margin-left: 20%;
+    max-height: fit-content;
+    
+}
+
+footer h6{
+    
+    color:#D2B48C;
+    font-family: cursive;
+    font-style: oblique;
+    font-size: 0.9rem;
+    margin-left: 40%;
+    margin-top: 0.3rem;
+    max-width: fit-content;
+    
+}
+
+
+
+
+
